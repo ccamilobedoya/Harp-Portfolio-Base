@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.0",
+  "description": "Personal Portfolio with HarpJS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "harpjs",
+    "static",
+    "site"
+  ],
+  "author": "Cristian Bedoya",
+  "license": "ISC",
+  "devDependencies": {
+   "gulp": "^3.8.5",
+   "harp": "^0.24.1",
+   "browser-sync": "^1.3.5"
+ }
+}
