@@ -32,3 +32,14 @@
     border-bottom: 20px solid transparent;
   }
 }
+
+@mixin parallelogram-clip {
+	-webkit-clip-path: polygon(45px 0, 98% 0, -webkit-calc(#{100%} - #{45px}) 100%, 2% 100%);
+	-moz-clip-path: polygon(45px 0, 98% 0, -moz-calc(#{100%} - #{45px}) 100%, 2% 100%);
+	clip-path: polygon(45px 0, 98% 0, calc(#{100%} - #{45px}) 100%, 2% 100%);
+}
+
+@mixin hexagon {
+	-webkit-clip-path: polygon(5% 0, 95% 0, 98% 50%, 95% 100%, 5% 100%, 2% 50%);
+	clip-path: polygon(5% 0, 95% 0, 98% 50%, 95% 100%, 5% 100%, 2% 50%);
+}

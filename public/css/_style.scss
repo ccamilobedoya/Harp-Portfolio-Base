@@ -28,18 +28,21 @@ h3{
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: $background1;
+  background-color: transparent;
 }
 .item {
-  @include parallelogram(20deg);
   display: flex;
   width: 100%;
   height: 120px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  //align-items: center;
 }
 .item-back {
-  //@include rotate(-20deg);
+  //@include parallelogram-clip();
+  @include hexagon();
   width: 100%;
   height: 100%;
   position: relative;
