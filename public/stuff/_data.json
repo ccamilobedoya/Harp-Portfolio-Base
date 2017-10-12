@@ -1,6 +1,10 @@
 {
   "project1": {
     "title": "First project",
-    "image": "project1.JPG"
+    "image": "project2.JPG"
+  },
+  "project2": {
+    "title": "Second project",
+    "image": "project2.JPG"
   }
 }

@@ -1,4 +1,11 @@
 h1 Portfolio
-for stuff, slug in public.stuff._data
-  a(href="/stuff/#{ slug }")
-    img(src="./images/#{stuff.image}")
+.item-container
+  for stuff, slug in public.stuff._data
+    a#item(
+      class="item"
+      href="/stuff/#{ slug }"
+    )
+      .item-back(
+        style="background-image:url(./images/#{stuff.image})"
+      )
+        .item-front(class="#{slug}")
